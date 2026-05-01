@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="icon" href="favicon.png" type="image/png">
+  <title>TBdev | Portfólio Profissional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">TB<span>dev</span></div>
+
+    <nav class="nav">
+      <a href="#home">Início</a>
+      <a href="#services">Serviços</a>
+      <a href="#projects">Projetos</a>
+      <a href="#contact">Contato</a>
+    </nav>
+
+    <a href="#contact" class="header-btn">Contratar</a>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text reveal">
+      <div class="badge">
+        <span></span> Online para novos projetos
+      </div>
+
+      <h1>Sites modernos para transformar ideias em negócios reais.</h1>
+
+      <p>
+        Desenvolvo landing pages, portfólios, sites para empresas, restaurantes,
+        áreas de membros e sistemas personalizados com visual profissional.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">Ver projetos</a>
+        <a href="#contact" class="btn secondary">Fazer orçamento</a>
+      </div>
+
+      <div class="stats">
+        <div>
+          <strong>+10</strong>
+          <span>Modelos criados</span>
+        </div>
+        <div>
+          <strong>100%</strong>
+          <span>Responsivo</span>
+        </div>
+        <div>
+          <strong>24h</strong>
+          <span>Resposta rápida</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-card reveal">
+      <div class="profile-card">
+        <div class="profile-top">
+          <div class="avatar">TB</div>
+          <div>
+            <h3>TBdev</h3>
+            <p>Web Developer</p>
+          </div>
+        </div>
+
+        <div class="code-box">
+          <p><span>const</span> projeto = "profissional";</p>
+          <p><span>status</span>: "online";</p>
+          <p><span>entrega</span>: "moderna";</p>
+        </div>
+
+        <div class="techs">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JS</span>
+          <span>PHP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <h2 class="section-title reveal">Serviços</h2>
+    <p class="section-subtitle reveal">
+      Soluções digitais para quem quer vender, apresentar ou profissionalizar sua marca.
+    </p>
+
+    <div class="grid">
+      <div class="card reveal">
+        <h3>Landing Pages</h3>
+        <p>Páginas modernas focadas em conversão, anúncios, vendas e captação de clientes.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Portfólio Profissional</h3>
+        <p>Site completo para apresentar seus serviços, projetos, contatos e diferenciais.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Site para Restaurante</h3>
+        <p>Cardápio online, visual elegante, botões de pedido e layout responsivo.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Área de Membros</h3>
+        <p>Sistema com login, senha, páginas protegidas e painel personalizado.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Página de Vendas</h3>
+        <p>Estrutura pensada para apresentar produto, quebrar objeções e aumentar vendas.</p>
+      </div>
+
+      <div class="card reveal">
+        <h3>Sistema Personalizado</h3>
+        <p>Projetos sob medida usando lógica, banco de dados e funcionalidades específicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+    <h2 class="section-title reveal">Projetos</h2>
+    <p class="section-subtitle reveal">
+      Alguns modelos que representam o tipo de trabalho que posso entregar.
+    </p>
+
+    <div class="project-grid">
+      <article class="project-card reveal">
+       <img src="ironpulse.png" class="project-img" alt="IronPulse Gym">
+        <div class="project-info">
+          <h3>IronPulse Gym</h3>
+          <p>Landing page moderna para academia com visual forte e foco em matrícula.</p>
+          <button onclick="openModal('https://tbscripts.github.io/ironpulse-landing-page/')">
+            Ver preview
+          </button>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <img src="restaurant.png" class="project-img" alt="Restaurante Italiano">
+        <div class="project-info">
+          <h3>Restaurante Italiano</h3>
+          <p>Site com cardápio, produtos, visual premium e experiência de compra.</p>
+          <button onclick="openModal('https://tbscripts.github.io/tambucci-restaurant-website/')">
+            Ver preview
+          </button>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+       <img src="portfolio.png" class="project-img" alt=" Portfólio Profissional">
+        <div class="project-info">
+          <h3>Portfólio Profissional</h3>
+          <p>Modelo pessoal para freelancers, devs, designers e prestadores de serviço.</p>
+          <button onclick="openModal('https://tbscripts.github.io/tambucci-portfolio-website/')">
+            Ver preview
+          </button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section about">
+    <div class="about-box reveal">
+      <h2>Por que contratar a TBdev?</h2>
+      <p>
+        Meu foco é criar sites bonitos, rápidos e profissionais, com visual moderno
+        e estrutura clara para apresentar serviços, vender produtos ou fortalecer sua marca.
+      </p>
+
+      <div class="about-list">
+        <span>✔ Layout moderno</span>
+        <span>✔ Design responsivo</span>
+        <span>✔ Código organizado</span>
+        <span>✔ Entrega personalizada</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq">
+    <h2 class="section-title reveal">Perguntas frequentes</h2>
+
+    <div class="faq-box reveal">
+      <button class="faq-question">Você faz o site completo?</button>
+      <div class="faq-answer">Sim. Posso criar a estrutura, visual, páginas e funcionalidades principais.</div>
+    </div>
+
+    <div class="faq-box reveal">
+      <button class="faq-question">O site funciona no celular?</button>
+      <div class="faq-answer">Sim. O layout é responsivo para celular, tablet e computador.</div>
+    </div>
+
+    <div class="faq-box reveal">
+      <button class="faq-question">Posso pedir alterações?</button>
+      <div class="faq-answer">Sim. O projeto pode ser ajustado conforme a necessidade do cliente.</div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-box reveal">
+      <h2>Vamos criar seu projeto?</h2>
+      <p>Entre em contato e me diga qual tipo de site você precisa.</p>
+
+      <div class="contact-buttons">
+        <a href="https://wa.me/+5513996600819" target="_blank">WhatsApp</a>
+        <a href="https://ggmax.com.br/perfil/cort3z" target="_blank">GGMAX</a>
+        <a href="https://www.fiverr.com/tambucci/create-a-high-converting-landing-page-that-gets-you-more-clients?context_referrer=tailored_homepage_perseus&source=recently_viewed_gigs&ref_ctx_id=d889db3e921a4cfe9842d6e967dfd245&context=recommendation&pckg_id=1&pos=1&context_alg=recently_viewed&seller_online=true&imp_id=e01a0d24-c892-4ad8-972e-fcfcc084fb97" target="_blank">Fiverr</a>
+        <a href="mailto:f6532432@gmail.com">Gmail</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 TBdev. Todos os direitos reservados.</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <button class="close" onclick="closeModal()">×</button>
+    <iframe id="modalFrame"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
